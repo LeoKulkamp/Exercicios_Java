@@ -10,10 +10,6 @@ public class Questao2_A
         System.out.println("Digite o numero decimal: ");
         numero = ler.nextDouble();
         resultado = (int) Math.round(numero);
-        if (resultado < numero )
-        {
-            resultado++;
-        }
         System.out.println("Resulatdo: " + resultado);
     }
 }
